@@ -1,33 +1,38 @@
 import { motion } from 'motion/react';
 import { Link } from 'react-router';
 import { GradientButton } from '../components/GradientButton';
+import gallery1 from '../../imports/gallery-1.jpg';
+import gallery2 from '../../imports/gallery-2.jpg';
+import gallery3 from '../../imports/gallery-3.jpg';
+import gallery4 from '../../imports/gallery-4.jpg';
+import gallery5 from '../../imports/gallery-5.jpg';
 
 export function Women() {
   const services = [
     {
       name: 'Hair Styling',
       description: 'Professional cuts, color, highlights, balayage, and hair treatments',
-      image: 'https://images.unsplash.com/photo-1580618672591-eb180b1a973f?w=800',
+      image: gallery2,
     },
     {
       name: 'Makeup',
       description: 'Professional makeup for weddings, events, and special occasions',
-      image: 'https://images.unsplash.com/photo-1634449571010-02389ed0f9b0?w=800',
+      image: gallery1,
     },
     {
       name: 'Manicure & Pedicure',
       description: 'Nail care, gel polish, nail art, and luxury treatments',
-      image: 'https://images.unsplash.com/photo-1632345031435-8727f6897d53?w=800',
+      image: gallery3,
     },
     {
       name: 'Spa Treatments',
       description: 'Facials, massages, body treatments, and relaxation therapy',
-      image: 'https://images.unsplash.com/photo-1560066984-138dadb4c035?w=800',
+      image: gallery4,
     },
     {
       name: 'Cosmetology',
       description: 'Advanced skincare, anti-aging treatments, and beauty consulting',
-      image: 'https://images.unsplash.com/photo-1560869713-7d0a29430803?w=800',
+      image: gallery5,
     },
   ];
 

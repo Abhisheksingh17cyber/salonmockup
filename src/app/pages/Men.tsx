@@ -1,28 +1,32 @@
 import { motion } from 'motion/react';
 import { Link } from 'react-router';
 import { GradientButton } from '../components/GradientButton';
+import men1 from '../../imports/men-1.jpg';
+import men2 from '../../imports/men-2.jpg';
+import gallery6 from '../../imports/gallery-6.jpg';
+import men3 from '../../imports/men-3.jpg';
 
 export function Men() {
   const services = [
     {
       name: 'Hair Styling',
       description: 'Modern haircuts, beard trimming, styling, and grooming services',
-      image: 'https://images.unsplash.com/photo-1622286342621-4bd786c2447c?w=800',
+      image: men1,
     },
     {
       name: 'Manicure & Pedicure',
       description: 'Professional nail care and grooming for the modern man',
-      image: 'https://images.unsplash.com/photo-1659391542239-9648f307c0b1?w=800',
+      image: men2,
     },
     {
       name: 'Spa Treatments',
       description: 'Relaxing facials, massages, and wellness treatments',
-      image: 'https://images.unsplash.com/photo-1633681926035-ec1ac984418a?w=800',
+      image: gallery6,
     },
     {
       name: 'Cosmetology',
       description: 'Advanced skincare and anti-aging treatments',
-      image: 'https://images.unsplash.com/photo-1600948836101-f9ffda59d250?w=800',
+      image: men3,
     },
   ];
 

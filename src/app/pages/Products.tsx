@@ -1,27 +1,31 @@
 import { motion } from 'motion/react';
 import { GradientButton } from '../components/GradientButton';
+import product1 from '../../imports/product-1.jpg';
+import product2 from '../../imports/product-2.jpg';
+import product3 from '../../imports/product-3.jpg';
+import product4 from '../../imports/product-4.jpg';
 
 export function Products() {
   const productCategories = [
     {
       name: 'Hair Care',
       items: ['Shampoo & Conditioner', 'Hair Masks', 'Styling Products', 'Color Protection'],
-      image: 'https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?w=800',
+      image: product1,
     },
     {
       name: 'Skin Care',
       items: ['Cleansers', 'Serums', 'Moisturizers', 'SPF Protection'],
-      image: 'https://images.unsplash.com/photo-1556228578-0d85b1a4d571?w=800',
+      image: product2,
     },
     {
       name: 'Nail Care',
       items: ['Nail Polish', 'Treatments', 'Tools', 'Accessories'],
-      image: 'https://images.unsplash.com/photo-1604654894610-df63bc536371?w=800',
+      image: product3,
     },
     {
       name: 'Wellness',
       items: ['Essential Oils', 'Aromatherapy', 'Supplements', 'Relaxation'],
-      image: 'https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?w=800',
+      image: product4,
     },
   ];
 

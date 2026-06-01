@@ -4,6 +4,12 @@ import { Link } from 'react-router';
 import { ArrowRight } from 'lucide-react';
 import { GradientButton } from '../components/GradientButton';
 import heroImage from '../../imports/image-1.png';
+import gallery1 from '../../imports/gallery-1.jpg';
+import gallery2 from '../../imports/gallery-2.jpg';
+import gallery3 from '../../imports/gallery-3.jpg';
+import gallery4 from '../../imports/gallery-4.jpg';
+import gallery5 from '../../imports/gallery-5.jpg';
+import gallery6 from '../../imports/gallery-6.jpg';
 
 export function Home() {
   const [scrollY, setScrollY] = useState(0);
@@ -182,12 +188,12 @@ export function Home() {
 
           <div className="grid grid-cols-2 md:grid-cols-3 gap-6">
             {[
-              'https://images.unsplash.com/photo-1634449571010-02389ed0f9b0?w=800',
-              'https://images.unsplash.com/photo-1580618672591-eb180b1a973f?w=800',
-              'https://images.unsplash.com/photo-1632345031435-8727f6897d53?w=800',
-              'https://images.unsplash.com/photo-1560066984-138dadb4c035?w=800',
-              'https://images.unsplash.com/photo-1560869713-7d0a29430803?w=800',
-              'https://images.unsplash.com/photo-1633681926035-ec1ac984418a?w=800',
+              gallery1,
+              gallery2,
+              gallery3,
+              gallery4,
+              gallery5,
+              gallery6,
             ].map((img, index) => (
               <motion.div
                 key={index}
